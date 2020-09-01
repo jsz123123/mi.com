@@ -1,0 +1,268 @@
+@charset 'utf-8';
+.site-header {
+  width: 100%;
+  height: 100px;
+  font-size: 12px;
+  color: #b0b0b0;
+  background: #fff;
+  border-bottom: 2px solid #ff6700;
+}
+.site-header .container {
+  width: 1226px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site-header .container h1 {
+  width: 62px;
+  padding-top: 22px;
+  float: left;
+}
+.site-header .container h1 a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: #ff6700;
+}
+.site-header .container h1 a img {
+  width: 100%;
+  height: 100%;
+}
+.site-header .container h2 {
+  width: 150px;
+  font-size: 28px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #424242;
+  padding: 21px 0 0 100px;
+  float: left;
+}
+.site-header .container .topbar-info {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 30px;
+  float: right;
+}
+.site-header .container .topbar-info .user {
+  width: 110px;
+  white-space: nowrap;
+}
+.site-header .container .topbar-info .user > a {
+  display: block;
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  color: #757575;
+  float: left;
+}
+.site-header .container .topbar-info .user > a > i {
+  font-size: 12px;
+}
+.site-header .container .topbar-info .user > span {
+  float: left;
+}
+.show1 {
+  width: 100%;
+  background: #f5f5f5;
+  display: none;
+}
+.show1 .mi-cart {
+  width: 1226px;
+  margin: 0 auto;
+}
+.show1 .mi-cart .empty-cart-top {
+  width: 1226px;
+  height: 273px;
+  color: #b0b0b0;
+  padding-left: 558px;
+  padding: 103px 0 130px;
+}
+.show1 .mi-cart .empty-cart-top > img {
+  padding: 0 80px 0 130px;
+  float: left;
+}
+.show1 .mi-cart .empty-cart-top > h2 {
+  font-size: 36px;
+  margin: 70px 0 20px 30px;
+  font-weight: 600;
+}
+.show1 .mi-cart .empty-cart-top > a {
+  display: block;
+  width: 170px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  background: #ff6700;
+  float: left;
+}
+.show1 .mi-cart .empty-cart-top > a:hover {
+  background: #e65e04;
+}
+.show2 {
+  width: 100%;
+  background: #f5f5f5;
+  padding: 38px 0;
+}
+.show2 .container {
+  width: 1226px;
+  margin: 0 auto;
+}
+.show2 .container .list-head {
+  height: 70px;
+  line-height: 70px;
+  color: #424242;
+  padding-right: 26px;
+  background: #fff;
+}
+.show2 .container .list-head .col-check {
+  width: 110px;
+}
+.show2 .container .list-head .col-check > input {
+  width: 18px;
+  height: 18px;
+  margin: 27px 10px 0 24px;
+  float: left;
+}
+.show2 .container .col {
+  float: left;
+}
+.show2 .container .col > a {
+  display: block;
+  color: #424242;
+}
+.show2 .container .col-img {
+  width: 80px;
+  padding-right: 40px;
+}
+.show2 .container .col-img a {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+.show2 .container .col-img a > img {
+  width: 100%;
+  height: 100%;
+}
+.show2 .container .col-name {
+  width: 380px;
+}
+.show2 .container .col-price {
+  width: 140px;
+  padding-right: 18px;
+  text-align: center;
+}
+.show2 .container .col-num {
+  width: 150px;
+  text-align: center;
+}
+.show2 .container .col-total {
+  width: 120px;
+  padding-right: 81px;
+  text-align: right;
+}
+.show2 .container .col-action {
+  width: 80px;
+  text-align: center;
+}
+.show2 .container .list-body .list-box {
+  height: 86px;
+  font-size: 16px;
+  line-height: 86px;
+  font-weight: 400;
+  padding: 15px 26px 15px 0;
+  border-top: 1px solid #e0e0e0;
+  background: #fff;
+}
+.show2 .container .list-body .list-box .col-check {
+  width: 110px;
+}
+.show2 .container .list-body .list-box .col-check > input {
+  width: 18px;
+  height: 18px;
+  margin: 36px 10px 0 24px;
+  float: left;
+}
+.show2 .container .list-body .list-box .col-name {
+  font-size: 18px;
+}
+.show2 .container .list-body .list-box .col-total {
+  color: #ff6700;
+}
+.show2 .container .list-body .list-box .col-num {
+  padding-top: 24px;
+}
+.show2 .container .list-body .list-box .col-num .change-goods-num {
+  width: 148px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+.show2 .container .list-body .list-box .col-num .change-goods-num .jian {
+  font-size: 26px;
+}
+.show2 .container .list-body .list-box .col-num .change-goods-num .jia {
+  font-size: 18px;
+}
+.show2 .container .list-body .list-box .col-num .change-goods-num > a {
+  display: block;
+  width: 38px;
+  height: 38px;
+  color: #5f5f5f;
+  float: left;
+}
+.show2 .container .list-body .list-box .col-num .change-goods-num .goods-num {
+  width: 72px;
+  height: 38px;
+  font-size: 16px;
+  color: #424242;
+  text-align: center;
+  border-width: 0;
+  float: left;
+}
+.show2 .container .cart-bar {
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  background: #fff;
+  margin-top: 20px;
+}
+.show2 .container .cart-bar .section-left {
+  float: left;
+  margin-left: 32px;
+}
+.show2 .container .cart-bar .section-left > a {
+  color: #757575;
+}
+.show2 .container .cart-bar .section-left > span {
+  margin-left: 16px;
+  padding-left: 16px;
+  border-left: 1px solid #eee;
+  font-size: 14px;
+  color: #757575;
+}
+.show2 .container .cart-bar .section-left > span > i {
+  color: #ff6700;
+}
+.show2 .container .cart-bar .total-price span {
+  width: 340px;
+  padding-left: 13px;
+  color: #ff6700;
+  font-size: 14px;
+  float: right;
+}
+.show2 .container .cart-bar .total-price span > em {
+  font-size: 30px;
+}
+.show2 .container .cart-bar .total-price span > a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  color: #b0b0b0;
+  line-height: 50px;
+  text-align: center;
+  background: #e0e0e0;
+  float: right;
+  margin-left: 50px;
+}

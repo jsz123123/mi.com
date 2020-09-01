@@ -1,0 +1,317 @@
+@charset 'utf-8';
+#topNav{
+    width:100%;
+    height:40px;
+    background:#333;
+    .topNav{
+        font-size:12px;
+        line-height:40px;
+        a{
+            display:block;
+            height:40px;
+            color:#B0B0B0;    
+            float:left;  
+            &:hover{
+                color:#FFF;
+            }         
+        }
+        span{
+            color:#424242;
+            float:left;
+            margin:0 7px;
+        }
+        .topNav-l{
+            width:947px;
+            height:40px;
+            float:left;  
+            // 下载APP
+            .nav-l{
+                position:relative;
+                i{
+                    width:0px;
+                    height:0px;
+                    border:8px solid transparent;
+                    border-bottom-color:#fff;
+                    position:absolute;
+                    top:24px;left:13px;
+                    display:none;
+                    &:hover{
+                        display:block;
+                    }
+                }
+                .nav-l-app{
+                    transition:.9s;
+                    width:124px;
+                    height:0px;
+                    background:#fff;
+                    border:solid #d7d7d7;
+                    border-width:0 1px 1px;
+                    font-size:14px;
+                    color:#333;
+                    text-align:center;
+                    position:absolute;
+                    top:40px;left:-38px;
+                    display:none;
+                    img{
+                        width:85px;
+                        height:85px;
+                        padding:20px 0 0 18px;
+                    }
+                }
+                &:hover .nav-l-app{
+                    height:148px;
+                    display:block;
+                    z-index: 666;
+                }
+                &:hover i{
+                    display:block;
+                }
+            }
+        }
+        .topNav-c{
+            width:159px;
+            float:left;  
+        }
+        .topNav-r{
+            width:120px;
+            float:left;  
+            background:#424242;
+            a{
+                display:block;
+                float:left;
+                .icon-gouwuche_{
+                    float:left; 
+                    font-size:14px;
+                    padding-left:20px;
+                }
+                span{
+                    color:#B0B0B0;
+                    float:left; 
+                } 
+            }
+            &:hover{
+                background:#fff;
+                span,.icon-gouwuche_{
+                    color:#ff6700;
+                }
+            }
+
+        }
+    }
+}
+//头部第二层导航栏
+.btmNav{
+    position:relative;
+    height:100px;  
+    h1{
+        width:62px;
+        padding-top:22px;
+        float:left;
+        a{
+        display:block;
+        width:55px;
+        height:55px;
+        background:#ff6700;
+            img{
+                width:100%;
+                height:100%;
+            }
+        }
+    }
+    .btmNav-nav{
+        padding-top:12px;
+        padding-left:130px;
+        >li{
+            // height:88px;
+            float:left;
+            a{
+                display:block;
+                color:#333;
+                padding:26px 10px 38px;
+                &:hover{
+                    color:#ff6700;
+                }
+            }
+        }
+        // 全部商品分类左侧导航
+        .nav{
+            position:relative;
+            .nav-list{
+                position:absolute;
+                top:88px;left:-130px;
+                width:234px;
+                height:430px;
+                z-index:22;
+                .nav-list1{
+                    height:420px;
+                    background:rgba(105,101,101,.6);
+                    padding:20px 0;
+                    >li{
+                        height:42px;
+                        a{
+                            // position:relative;
+                            display:block;
+                            width:204px;
+                            color:#fff;
+                            line-height:42px;
+                            padding:0 0 0 30px;
+                        }
+                        &:hover{
+                            background:#ff6700;
+                            .children{
+                                display:block;
+                            }
+                        }
+                        .icon-jiantouxia{
+                            position:absolute;
+                            right:20px;
+                            font-size:16px;
+                            line-height:16px;
+                            color:#e0e0e0;
+                            padding-top:12px;
+                        }
+                    }
+                    .children{
+                        position:absolute;
+                        left:234px;top:0;
+                        background:#fff;
+                        display:none;
+                        .children-list{
+                            height:458px;
+                            padding:2px 0;
+                            li{
+                                height:75px;
+                                a{
+                                    display:block;
+                                    height:42px;
+                                    padding:18px 20px;
+                                    line-height:40px;
+                                    color:#333;
+                                    img{
+                                        width:40px;
+                                        height:40px;
+                                        float:left;
+                                    }
+                                    span{
+                                        font-size:14px;
+                                        margin-left:12px;
+                                    }
+                                    &:hover span{
+                                        color:#ff6700;
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }  
+    }
+    form{
+        position:absolute;
+        right:0;top:25px;
+        width:296px;
+        height:50px;
+        .search-text{
+            width:223px;
+            height:48px;
+            font-size:14px;
+            line-height:48px;
+            background:#fff;
+            border:1px solid #e0e0e0;
+            padding:0 10px;
+            position:absolute;
+            top:0;
+        }
+        >a{
+            display:block;
+            width:52px;
+            height:48px;
+            color:#616161;
+            text-align:center;
+            border:1px solid #e0e0e0;
+            float:left;
+            position:absolute;
+            top:0;right:-2px;
+            .icon-sousuo{
+                font-size:25px;
+                line-height:48px;
+            }
+        }
+    }
+}
+.item-children{
+    position:absolute;
+    width:137%;
+    height:287px;
+    background:#fff;
+    margin:3px 0 0 -474px;
+    display:none;
+    .nav-container-list{
+        width:1106px;
+        font-size:16px;
+        margin:44px auto;
+        // display:none;
+        >li{
+            width:184px;
+            text-align:center;
+            float:left;
+            >a{
+                color:#333;
+                font-size:14px;
+                padding:0;
+                float:left;
+                .figure{
+                    width:135px;
+                    height:135px;
+                    border-left:2px solid #e0e0e0;
+                    padding:0 35px 13px 23px;
+                    >img{
+                        width:100%;
+                        height:100%;
+                    }  
+                }
+                >p{
+                    color:#ff6700;
+                }
+                &:hover{
+                    color:#333;
+                }
+            }
+        }
+    }
+}
+.nav-item:hover .item-children{
+    display:block;
+    z-index:66;
+    
+}
+.mini{
+    position:fixed;
+    right:0;
+    bottom:70px;
+    .item{
+        position:relative;
+        display:block;
+        width:82px;
+        height:90px;
+        color:#757575;
+        background:#fff;
+        border:1px solid #f5f5f5;
+        text-align:center;
+        .icon{
+            margin:0 auto 8px;
+            padding-top:10px;
+            >i{
+                font-size:34px!important;
+            }
+        }
+        &:hover{
+            color:#ff6700;
+        }
+    }
+    .backtop{
+        margin-top:14px;
+    }
+}

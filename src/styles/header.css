@@ -1,0 +1,315 @@
+@charset 'utf-8';
+#topNav {
+  width: 100%;
+  height: 40px;
+  background: #333;
+}
+#topNav .topNav {
+  font-size: 12px;
+  line-height: 40px;
+}
+#topNav .topNav a {
+  display: block;
+  height: 40px;
+  color: #B0B0B0;
+  float: left;
+}
+#topNav .topNav a:hover {
+  color: #FFF;
+}
+#topNav .topNav span {
+  color: #424242;
+  float: left;
+  margin: 0 7px;
+}
+#topNav .topNav .topNav-l {
+  width: 947px;
+  height: 40px;
+  float: left;
+}
+#topNav .topNav .topNav-l .nav-l {
+  position: relative;
+}
+#topNav .topNav .topNav-l .nav-l i {
+  width: 0px;
+  height: 0px;
+  border: 8px solid transparent;
+  border-bottom-color: #fff;
+  position: absolute;
+  top: 24px;
+  left: 13px;
+  display: none;
+}
+#topNav .topNav .topNav-l .nav-l i:hover {
+  display: block;
+}
+#topNav .topNav .topNav-l .nav-l .nav-l-app {
+  transition: 0.9s;
+  width: 124px;
+  height: 0px;
+  background: #fff;
+  border: solid #d7d7d7;
+  border-width: 0 1px 1px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  position: absolute;
+  top: 40px;
+  left: -38px;
+  display: none;
+}
+#topNav .topNav .topNav-l .nav-l .nav-l-app img {
+  width: 85px;
+  height: 85px;
+  padding: 20px 0 0 18px;
+}
+#topNav .topNav .topNav-l .nav-l:hover .nav-l-app {
+  height: 148px;
+  display: block;
+  z-index: 666;
+}
+#topNav .topNav .topNav-l .nav-l:hover i {
+  display: block;
+}
+#topNav .topNav .topNav-c {
+  width: 159px;
+  float: left;
+}
+#topNav .topNav .topNav-r {
+  width: 120px;
+  float: left;
+  background: #424242;
+}
+#topNav .topNav .topNav-r a {
+  display: block;
+  float: left;
+}
+#topNav .topNav .topNav-r a .icon-gouwuche_ {
+  float: left;
+  font-size: 14px;
+  padding-left: 20px;
+}
+#topNav .topNav .topNav-r a span {
+  color: #B0B0B0;
+  float: left;
+}
+#topNav .topNav .topNav-r:hover {
+  background: #fff;
+}
+#topNav .topNav .topNav-r:hover span,
+#topNav .topNav .topNav-r:hover .icon-gouwuche_ {
+  color: #ff6700;
+}
+.btmNav {
+  position: relative;
+  height: 100px;
+}
+.btmNav h1 {
+  width: 62px;
+  padding-top: 22px;
+  float: left;
+}
+.btmNav h1 a {
+  display: block;
+  width: 55px;
+  height: 55px;
+  background: #ff6700;
+}
+.btmNav h1 a img {
+  width: 100%;
+  height: 100%;
+}
+.btmNav .btmNav-nav {
+  padding-top: 12px;
+  padding-left: 130px;
+}
+.btmNav .btmNav-nav > li {
+  float: left;
+}
+.btmNav .btmNav-nav > li a {
+  display: block;
+  color: #333;
+  padding: 26px 10px 38px;
+}
+.btmNav .btmNav-nav > li a:hover {
+  color: #ff6700;
+}
+.btmNav .btmNav-nav .nav {
+  position: relative;
+}
+.btmNav .btmNav-nav .nav .nav-list {
+  position: absolute;
+  top: 88px;
+  left: -130px;
+  width: 234px;
+  height: 430px;
+  z-index: 22;
+}
+.btmNav .btmNav-nav .nav .nav-list .nav-list1 {
+  height: 420px;
+  background: rgba(105, 101, 101, 0.6);
+  padding: 20px 0;
+}
+.btmNav .btmNav-nav .nav .nav-list .nav-list1 > li {
+  height: 42px;
+}
+.btmNav .btmNav-nav .nav .nav-list .nav-list1 > li a {
+  display: block;
+  width: 204px;
+  color: #fff;
+  line-height: 42px;
+  padding: 0 0 0 30px;
+}
+.btmNav .btmNav-nav .nav .nav-list .nav-list1 > li:hover {
+  background: #ff6700;
+}
+.btmNav .btmNav-nav .nav .nav-list .nav-list1 > li:hover .children {
+  display: block;
+}
+.btmNav .btmNav-nav .nav .nav-list .nav-list1 > li .icon-jiantouxia {
+  position: absolute;
+  right: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #e0e0e0;
+  padding-top: 12px;
+}
+.btmNav .btmNav-nav .nav .nav-list .nav-list1 .children {
+  position: absolute;
+  left: 234px;
+  top: 0;
+  background: #fff;
+  display: none;
+}
+.btmNav .btmNav-nav .nav .nav-list .nav-list1 .children .children-list {
+  height: 458px;
+  padding: 2px 0;
+}
+.btmNav .btmNav-nav .nav .nav-list .nav-list1 .children .children-list li {
+  height: 75px;
+}
+.btmNav .btmNav-nav .nav .nav-list .nav-list1 .children .children-list li a {
+  display: block;
+  height: 42px;
+  padding: 18px 20px;
+  line-height: 40px;
+  color: #333;
+}
+.btmNav .btmNav-nav .nav .nav-list .nav-list1 .children .children-list li a img {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+.btmNav .btmNav-nav .nav .nav-list .nav-list1 .children .children-list li a span {
+  font-size: 14px;
+  margin-left: 12px;
+}
+.btmNav .btmNav-nav .nav .nav-list .nav-list1 .children .children-list li a:hover span {
+  color: #ff6700;
+}
+.btmNav form {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  width: 296px;
+  height: 50px;
+}
+.btmNav form .search-text {
+  width: 223px;
+  height: 48px;
+  font-size: 14px;
+  line-height: 48px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 0 10px;
+  position: absolute;
+  top: 0;
+}
+.btmNav form > a {
+  display: block;
+  width: 52px;
+  height: 48px;
+  color: #616161;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  float: left;
+  position: absolute;
+  top: 0;
+  right: -2px;
+}
+.btmNav form > a .icon-sousuo {
+  font-size: 25px;
+  line-height: 48px;
+}
+.item-children {
+  position: absolute;
+  width: 137%;
+  height: 287px;
+  background: #fff;
+  margin: 3px 0 0 -474px;
+  display: none;
+}
+.item-children .nav-container-list {
+  width: 1106px;
+  font-size: 16px;
+  margin: 44px auto;
+}
+.item-children .nav-container-list > li {
+  width: 184px;
+  text-align: center;
+  float: left;
+}
+.item-children .nav-container-list > li > a {
+  color: #333;
+  font-size: 14px;
+  padding: 0;
+  float: left;
+}
+.item-children .nav-container-list > li > a .figure {
+  width: 135px;
+  height: 135px;
+  border-left: 2px solid #e0e0e0;
+  padding: 0 35px 13px 23px;
+}
+.item-children .nav-container-list > li > a .figure > img {
+  width: 100%;
+  height: 100%;
+}
+.item-children .nav-container-list > li > a > p {
+  color: #ff6700;
+}
+.item-children .nav-container-list > li > a:hover {
+  color: #333;
+}
+.nav-item:hover .item-children {
+  display: block;
+  z-index: 66;
+}
+.mini {
+  position: fixed;
+  right: 0;
+  bottom: 70px;
+}
+.mini .item {
+  position: relative;
+  display: block;
+  width: 82px;
+  height: 90px;
+  color: #757575;
+  background: #fff;
+  border: 1px solid #f5f5f5;
+  text-align: center;
+}
+.mini .item .icon {
+  margin: 0 auto 8px;
+  padding-top: 10px;
+}
+.mini .item .icon > i {
+  font-size: 34px!important;
+}
+.mini .item:hover {
+  color: #ff6700;
+}
+.mini .backtop {
+  margin-top: 14px;
+}

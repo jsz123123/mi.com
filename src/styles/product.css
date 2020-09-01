@@ -1,0 +1,358 @@
+@charset 'utf-8';
+.nav-list {
+  display: none;
+}
+.nav-list .nav-list1 {
+  background: #fff !important;
+  border: 1px solid #ff6700;
+}
+.nav-list .nav-list1 > li > a {
+  color: #333 !important;
+}
+.nav:hover .nav-list {
+  display: block;
+}
+.xm-product-box {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
+}
+.xm-product-box .nav-bar {
+  width: 100%;
+  height: 63px;
+  color: #616161;
+}
+.xm-product-box .nav-bar .container {
+  width: 1226px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.xm-product-box .nav-bar .container > h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #424242;
+  line-height: 60px;
+  float: left;
+}
+.xm-product-box .nav-bar .container .con-right {
+  margin-top: 17px;
+  float: right;
+}
+.xm-product-box .nav-bar .container .con-right > a {
+  color: #616161;
+}
+.product-box {
+  min-height: 1200px;
+  padding-top: 40px;
+}
+.product-box .img-left {
+  width: 606px;
+  position: relative;
+  float: left;
+}
+.product-box .img-left .swiper-slide {
+  width: 560px;
+  height: 560px;
+}
+.product-box .img-left .swiper-slide > img {
+  width: 100%;
+  height: 100%;
+}
+.product-box .img-left .btn-prve,
+.product-box .img-left .btn-next {
+  width: 41px;
+  height: 69px;
+  position: absolute;
+  top: 42%;
+  z-index: 22;
+}
+.product-box .img-left .btn-prve {
+  background: url(../img/images/icon-slides_wps.png) no-repeat -83px 50%;
+}
+.product-box .img-left .btn-prve:hover {
+  background: url(../img/images/icon-slides_wps.png) no-repeat 0 50%;
+}
+.product-box .img-left .btn-next {
+  position: absolute;
+  right: 46px;
+  background: url(../img/images/icon-slides_wps.png) no-repeat -125px 50%;
+}
+.product-box .img-left .btn-next:hover {
+  background: url(../img/images/icon-slides_wps.png) no-repeat -42px 50%;
+}
+.product-box .img-left .swiper-pagination > div {
+  padding-left: 140px;
+}
+.product-box .img-left .swiper-pagination > div > span {
+  display: block;
+  margin: 0 4px;
+  width: 50px;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.4);
+  float: left;
+}
+.product-box .product-con {
+  width: 600px;
+  margin-left: 20px;
+  float: left;
+}
+.product-box .product-con > h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #212121;
+}
+.product-box .product-con > p {
+  line-height: 1.5;
+  padding: 8px;
+  color: #b0b0b0;
+}
+.product-box .product-con i {
+  color: #ff4a00;
+}
+.product-box .product-con .price-info {
+  padding: 21px 0 29px 0;
+  line-height: 1px;
+}
+.product-box .product-con .price-info > span {
+  display: block;
+  font-size: 18px;
+  color: #ff6700;
+  float: left;
+}
+.product-box .product-con .price-info > del {
+  font-size: 14px;
+  color: #b0b0b0;
+  margin: 10px 0 0 10px;
+}
+.product-box .product-con .line {
+  border-bottom: 1px solid #e0e0e0;
+}
+.product-box .product-con .address-box {
+  margin: 20px 0;
+}
+.product-box .product-con .address-box .product-address {
+  background: #fafafa;
+  padding: 30px 50px;
+  border: 1px solid #e0e0e0;
+  position: relative;
+}
+.product-box .product-con .address-box .product-address .icon-weizhi {
+  position: absolute;
+  left: 20px;
+  top: 31px;
+  font-size: 18px;
+  color: #999;
+}
+.product-box .product-con .address-box .product-address .address-info > span {
+  display: inline-block;
+  color: #333;
+  margin-right: 14px;
+}
+.product-box .product-con .address-box .product-address .address-info > a {
+  color: #ff6700;
+}
+.product-box .product-con .address-box .product-address .info > span {
+  display: inline-block;
+  color: #ff6700;
+}
+.product-box .product-con h3 {
+  font-size: 18px;
+  float: left;
+  color: #333;
+}
+.product-box .product-con .buy-box-child {
+  min-height: 135px;
+  margin-bottom: 30px;
+}
+.product-box .product-con .buy-box-child > ul {
+  float: left;
+}
+.product-box .product-con .buy-box-child > ul > li {
+  font-size: 16px;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 12px 0 0;
+  float: left;
+}
+.product-box .product-con .buy-box-child > ul > li > a {
+  display: block;
+  width: 292px;
+  height: 42px;
+  color: #757575;
+  border: 1px solid #e0e0e0;
+}
+.product-box .product-con .buy-box-child > ul > li:hover a {
+  border-color: #ff6700;
+  color: #ff6700;
+}
+.product-box .product-con .buy-box-child > ul :nth-child(2) {
+  margin-right: 0;
+}
+.product-box .product-con .buy-box-child > ul .active a {
+  border-color: #ff6700;
+  color: #ff6700;
+}
+.product-box .product-con .service-box .service-item-box {
+  margin-bottom: 30px;
+  height: 10px;
+}
+.product-box .product-con .service-box .service-item-box > a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ff6700;
+  float: right;
+}
+.product-box .product-con .service-box > ul {
+  width: 600px;
+  height: 147px;
+  border: 1px solid #e0e0e0;
+}
+.product-box .product-con .service-box > ul > li {
+  padding: 30px 0;
+}
+.product-box .product-con .service-box > ul > li a {
+  display: block;
+}
+.product-box .product-con .service-box > ul > li a > input {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  margin: 18px 0 0 50px;
+  float: left;
+}
+.product-box .product-con .service-box > ul > li a > img {
+  width: 50px;
+  height: 50px;
+  margin: 0 15px 0 10px;
+  float: left;
+}
+.product-box .product-con .service-box > ul > li a .box > em {
+  font-size: 14px;
+  background: #ff6700;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 20px;
+  color: #fff;
+  margin-left: 2px;
+}
+.product-box .product-con .service-box > ul > li a .box > p {
+  width: 286px;
+  height: 18px;
+  font-size: 14px;
+  color: #b0b0b0;
+  margin: 10px 80px 10px;
+}
+.product-box .product-con .service-box > ul > li a .box .agreement-box {
+  color: #333;
+  font-size: 14px;
+}
+.product-box .product-con .service-box > ul > li a .box .agreement-box > input {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  margin: 1px 10px 8px 142px;
+  float: left;
+}
+.product-box .product-con .service-box > ul > li a .box .agreement-box i,
+.product-box .product-con .service-box > ul > li a .box .agreement-box span {
+  color: #ff6700;
+}
+.product-box .product-con .service-box > ul > li a .box .agreement-box b {
+  float: right;
+  color: #757575;
+  padding-right: 20px;
+}
+.product-box .product-con .selected-list {
+  background: #f9f9fa;
+  padding: 30px;
+  margin: 30px 0;
+  color: #616161;
+}
+.product-box .product-con .selected-list ul {
+  line-height: 30px;
+}
+.product-box .product-con .selected-list ul li {
+  font-size: 14px;
+}
+.product-box .product-con .selected-list ul li span,
+.product-box .product-con .selected-list ul li del {
+  float: right;
+}
+.product-box .product-con .selected-list ul li > p {
+  color: #ff6700;
+  font-size: 24px;
+  padding-top: 20px;
+}
+.product-box .product-con .btn-box {
+  height: 54px;
+  margin: 10px 0 20px 0;
+}
+.product-box .product-con .btn-box .sale-btn {
+  width: 298px;
+  height: 52px;
+  margin-right: 10px;
+  float: left;
+}
+.product-box .product-con .btn-box .sale-btn > a {
+  display: block;
+  width: 298px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  font-size: 16px;
+  background: #ff6700;
+  color: #fff;
+}
+.product-box .product-con .btn-box .favorite-btn {
+  float: right;
+  width: 140px;
+  height: 52px;
+  margin-right: 152px;
+}
+.product-box .product-con .btn-box .favorite-btn > a {
+  display: block;
+  width: 140px;
+  height: 52px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 52px;
+  background: #b0b0b0;
+  text-align: center;
+}
+.product-box .product-con .btn-box .favorite-btn > a .icon-shoucang-copy {
+  color: #fff;
+}
+.page-main {
+  background: #f5f5f5;
+  padding-bottom: 50px;
+}
+.page-main .detail-banner {
+  text-align: center;
+  padding: 10px 0;
+  background: #fff;
+  border-top: 1px solid #ddd;
+}
+.page-main .detail-banner .container ul {
+  width: 100%;
+}
+.page-main .detail-banner .container ul > li {
+  width: 168px;
+  height: 18px;
+  padding: 20px 0;
+  line-height: 18px;
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+}
+.page-main .detail-banner .container ul > li > a {
+  width: 170px;
+  display: block;
+  color: #757575;
+  border-right: 1px solid #e0e0e0;
+}
+.page-main .detail-banner .container ul > li .show {
+  color: #ff6700;
+}
+.page-main .detail-banner .container ul :last-child > a {
+  border-right: none;
+}
