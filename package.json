@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "iquery": "0.0.2",
+    "jquery": "^3.5.1",
+    "md5": "^2.3.0",
+    "require": "^2.4.20",
+    "swiper": "^6.1.2"
+  }
 }

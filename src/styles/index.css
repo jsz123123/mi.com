@@ -3,50 +3,17 @@
   height: 460px;
   position: relative;
 }
-.banner .banner-main img {
-  width: 100%;
+.banner .swiper-container {
+  width: 1226px;
+  height: 460px;
+}
+.banner .swiper-container img {
   height: 100%;
+  width: 100%;
 }
-.banner .dou {
+.banner .swiper-button-prev {
   position: absolute;
-  width: 100px;
-  height: 20px;
-  right: 30px;
-  bottom: 15px;
-}
-.banner .dou a {
-  display: block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.4);
-  border: 2px solid #fff;
-  border-color: hsla(0, 0%, 100%, 0.3);
-  margin: 0 3px;
-  float: left;
-}
-.banner .btn-prve,
-.banner .btn-next {
-  width: 41px;
-  height: 69px;
-  position: absolute;
-  top: 50%;
-  z-index: 22;
-}
-.banner .btn-prve {
-  margin-left: 234px;
-  background: url(../img/images/icon-slides_wps.png) no-repeat -83px 50%;
-}
-.banner .btn-prve:hover {
-  background: url(../img/images/icon-slides_wps.png) no-repeat 0 50%;
-}
-.banner .btn-next {
-  position: absolute;
-  right: 0;
-  background: url(../img/images/icon-slides_wps.png) no-repeat -125px 50%;
-}
-.banner .btn-next:hover {
-  background: url(../img/images/icon-slides_wps.png) no-repeat -42px 50%;
+  left: 234px;
 }
 .home-row {
   height: 170px;
