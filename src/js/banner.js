@@ -4,7 +4,7 @@ var  swiper  =  new  Swiper(".swiper-container",   {  
       paginationClickable:  true,
       loop:  true,
       // 循环模式选项
-      pagination:  {     el:   ".swiper-pagination",     clickable:  true,     bulletActiveClass:   "my-bullet-active",    },
+      pagination:  {     el:   ".swiper-pagination",     clickable:  true,     bulletActiveClass:   "my-bullet-active", },
       navigation:  {     nextEl:   ".swiper-button-next",     prevEl:   ".swiper-button-prev",    },
       autoplay:  {     delay:  3000,     disableOnInteraction:  true,    },
       effect:   "fade",
@@ -19,5 +19,3 @@ swiper.el.onmouseover  =   function ()  {  
 swiper.el.onmouseout  =   function ()  {  
     swiper.autoplay.start();
 };
-
-export { swiper };
